@@ -5,6 +5,7 @@ import org.apache.cordova.CallbackContext;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import testJar.Echo;
 
 /**
  * This class echoes a string called from JavaScript.
@@ -22,10 +23,11 @@ public class TestPlugin extends CordovaPlugin {
     }
 
     private void echo(String message, CallbackContext callbackContext) {
+        Echo e = new Echo();
         if (message != null && message.length() > 0) {
-            callbackContext.success(message + " " + message);
+            callbackContext.success(e.echo(message));
         } else {
-            callbackContext.error("Expected one non-empty string argument.");
+            callbackContext.error(e.echo(message));
         }
     }
 }
