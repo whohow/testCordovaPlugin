@@ -37,6 +37,6 @@
             <param name="android-package" value="testPlugin.TestPlugin"/>
             </feature>
         </config-file>
-        <source-file src="src/android/TestPlugin.jar" target-dir="src/testPlugin" />
+        <source-file src="src/android/testPlugin.jar" target-dir="src/testPlugin" />
     </platform>
 </plugin>
