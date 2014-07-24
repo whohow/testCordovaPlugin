@@ -2,7 +2,7 @@
 
 @implementation testPlugin
 
-- (void)greet:(CDVInvokedUrlCommand*)command
+- (void)echo:(CDVInvokedUrlCommand*)command
 {
 
     NSString* callbackId = [command callbackId];
