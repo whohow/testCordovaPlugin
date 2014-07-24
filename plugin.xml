@@ -26,7 +26,7 @@
     <description>Cordova Plugin Test</description>
 
 
-    <js-module src="www/testPlugin.js" name="testPlugin">
+    <js-module src="www/testPlugin.js" name="test">
         <clobbers target="navigator.testPlugin" />
     </js-module>
 
