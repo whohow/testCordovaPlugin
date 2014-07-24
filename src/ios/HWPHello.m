@@ -1,4 +1,5 @@
 #import "HWPHello.h"
+#import <Cordova/CDV.h>
 
 @implementation TestPlugin
 
