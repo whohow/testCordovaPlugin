@@ -24,7 +24,7 @@
         <source-file src="src/android/TestPlugin.java" target-dir="src/testPlugin" />
     </platform>
     <platform name="ios">
-        <plugins-plist key="testPlugin" string="TestPlugin" />     
+        <plugins-plist key="testPlugin" string="testPlugin" />     
       <header-file src="src/ios/HWPHello.h" />  
       <source-file src="src/ios/HWPHello.m" />  
     </platform> 
