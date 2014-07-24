@@ -34,9 +34,10 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="testPlugin">
-            <param name="android-package" value="testPlugin.testPlugin.jar"/>
+            <param name="android-package" value="testPlugin.TestPlugin"/>
             </feature>
         </config-file>
-        <source-file src="src/android/testPlugin.jar" target-dir="src/testPlugin" />
+        <source-file src="src/android/Hello.jar" target-dir="libs" framework="true" />
+        <source-file src="src/android/TestPlugin.java" target-dir="src/testPlugin" />
     </platform>
 </plugin>
