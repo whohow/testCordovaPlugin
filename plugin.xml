@@ -34,7 +34,7 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="testPlugin">
-            <param name="android-package" value="testPlugin.testPlugin"/>
+            <param name="android-package" value="testPlugin.testPlugin.jar"/>
             </feature>
         </config-file>
         <source-file src="src/android/testPlugin.jar" target-dir="src/testPlugin" />
