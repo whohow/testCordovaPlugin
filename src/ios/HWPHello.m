@@ -1,6 +1,6 @@
 #import "HWPHello.h"
 
-@implementation testPlugin
+@implementation TestPlugin
 
 - (void)echo:(CDVInvokedUrlCommand*)command
 {
