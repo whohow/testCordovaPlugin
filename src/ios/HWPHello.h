@@ -2,6 +2,6 @@
 
 @interface testPlugin : CDVPlugin
 
-- (void) greet:(CDVInvokedUrlCommand*)command;
+- (void) echo:(CDVInvokedUrlCommand*)command;
 
 @end
