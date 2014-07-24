@@ -1,7 +1,7 @@
-#import <Cordova/CDVPlugin.h>
+#import <Cordova/CDV.h>
 
-@interface testPlugin : CDVPlugin
+@interface TestPlugin : CDVPlugin
 
-- (void) echo:(CDVInvokedUrlCommand*)command;
+- (void)echo:(CDVInvokedUrlCommand*)command;
 
 @end
