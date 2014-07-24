@@ -19,8 +19,8 @@
             <param name="android-package" value="testPlugin.TestPlugin"/>
             </feature>
         </config-file>
-        <source-file src="src/android/HelloWorld.jar" target-dir="libs" framework="true" />
-        <!-- <source-file src="src/android/Plot_v_1_6_0.jar" target-dir="libs" framework="true" /> -->
+        <!-- <source-file src="src/android/HelloWorld.jar" target-dir="libs" framework="true" /> -->
+        <source-file src="src/android/Plot_v_1_6_0.jar" target-dir="libs" framework="true" />
         <source-file src="src/android/TestPlugin.java" target-dir="src/testPlugin" />
     </platform>
     <platform name="ios">
@@ -28,10 +28,10 @@
       <header-file src="src/ios/HWPHello.h" />  
       <source-file src="src/ios/HWPHello.m" />  
     </platform> 
-    <config-file target="AndroidManifest.xml" parent="/manifest">
+   <!--  <config-file target="AndroidManifest.xml" parent="/manifest">
       <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
       <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
       <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
       <uses-permission android:name="android.permission.VIBRATE"/>
-    </config-file>
+    </config-file> -->
 </plugin>
