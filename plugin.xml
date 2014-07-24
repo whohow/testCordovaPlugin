@@ -25,8 +25,8 @@
     </platform>
     <platform name="ios">
         <plugins-plist key="Hello" string="HWPHello" />     
-      <header-file src="HWPHello.h" />  
-      <source-file src="HWPHello.m" />  
+      <header-file src="src/ios/HWPHello.h" />  
+      <source-file src="src/ios/HWPHello.m" />  
     </platform> 
     <config-file target="AndroidManifest.xml" parent="/manifest">
       <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
