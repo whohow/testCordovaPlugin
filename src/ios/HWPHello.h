@@ -1,6 +1,6 @@
 #import <Cordova/CDVPlugin.h>
 
-@interface HWPHello : CDVPlugin
+@interface testPlugin : CDVPlugin
 
 - (void) greet:(CDVInvokedUrlCommand*)command;
 
