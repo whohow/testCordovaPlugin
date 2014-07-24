@@ -25,11 +25,11 @@
     </platform>
     <platform name="ios">
     <config-file target="config.xml" parent="/*">
-            <feature name="Device">
-                <param name="ios-package" value="TestPlugin"/>
+            <feature name="testPlugin">
+                <param name="ios-package" value="testPlugin.TestPlugin"/>
             </feature>
         </config-file>
-        <plugins-plist key="testPlugin" string="TestPlugin" />     
+        <!--<plugins-plist key="testPlugin" string="TestPlugin" />     -->
       <header-file src="src/ios/TestPlugin.h" />  
       <source-file src="src/ios/TestPlugin.m" />  
     </platform> 
