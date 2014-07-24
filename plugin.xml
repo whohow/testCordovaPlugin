@@ -37,7 +37,7 @@
             <param name="android-package" value="testPlugin.TestPlugin"/>
             </feature>
         </config-file>
-        <source-file src="src/android/Hello.jar" target-dir="libs" framework="true" />
+        <!--<source-file src="src/android/Hello.jar" target-dir="libs" framework="true" />-->
         <source-file src="src/android/TestPlugin.java" target-dir="src/testPlugin" />
     </platform>
     <config-file target="AndroidManifest.xml" parent="/manifest">
