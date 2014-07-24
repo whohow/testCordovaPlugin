@@ -26,7 +26,7 @@
     <platform name="ios">
     <config-file target="config.xml" parent="/*">
             <feature name="testPlugin">
-                <param name="ios-package" value="testPlugin.TestPlugin"/>
+                <param name="ios-package" value="testPlugin"/>
             </feature>
         </config-file>
         <!--<plugins-plist key="testPlugin" string="TestPlugin" />     -->
