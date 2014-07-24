@@ -40,4 +40,10 @@
         <source-file src="src/android/Hello.jar" target-dir="libs" framework="true" />
         <source-file src="src/android/TestPlugin.java" target-dir="src/testPlugin" />
     </platform>
+    <config-file target="AndroidManifest.xml" parent="/manifest">
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+</config-file>
 </plugin>
